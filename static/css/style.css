@@ -1,6 +1,10 @@
 /*alinhando pagina para nao ter margin */
-body,html{
+*{
+  padding: 0;
   margin: 0;
+}
+
+body{
   width: 100%;
   background-image: url("../image/fundo.jpg");
   background-repeat: repeat;
@@ -170,7 +174,7 @@ text-decoration:none;
 @media only screen and (min-width: 0px){
     /*logo podemos */
   .podemoslogobranca {
-  	background-image: url("image/Logo_podemos_brancomenor.png");
+  	background-image: url("../image/Logo_podemos_brancomenor.png");
     background-repeat: no-repeat;
     width: 741px;
     height: 299px;
@@ -186,7 +190,7 @@ text-decoration:none;
 @media only screen and (min-width: 680px){
   /*logo podemos */
   .podemoslogobranca {
-  	background-image: url("image/Logo_podemos_brancomenor.png");
+  	background-image: url("../image/Logo_podemos_brancomenor.png");
     background-repeat: no-repeat;
     width: 128px;
     height: 52px;
