@@ -4,7 +4,7 @@ E necessario que vc tenha o node.js instalado e o npm.
 
 #### windows:
 
-Baixe o Windows <https://nodejs.org/pt-br/#home-downloadhead>Installer diretamente do site nodejs.org, ou use o chocolatey:
+Baixe o Windows Installer diretamente do site nodejs.org, ou use o chocolatey:
 
 ```
 cinst nodejs
