@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './Conversor.css'
+import './Conversor.min.css'
 
 export default class Conversor extends Component{
     
