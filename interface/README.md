@@ -15,8 +15,8 @@ cinst nodejs.install
 #### linux:
 
 ```
-    sudo apt-get update
-    sudo apt-get install nodejs
+$ sudo apt-get update
+$ sudo apt-get install nodejs
 ```
 _____________________________________________________________________________________________
 
