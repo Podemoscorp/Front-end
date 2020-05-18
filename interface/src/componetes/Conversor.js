@@ -17,14 +17,14 @@ export default class Conversor extends Component{
     converter(){
 
         let de_para = '${this.props.moedaA}_${this.props.moedaB}'
-        let url = 'http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y'
+        let url = 'http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y&apiKey=c696349ad4e80f023011'
 
         fetch(url)
         .then(res => {
             return res.json()
         })
         .then(json => {
-            let cotacao = json[de_para].val;
+            let cotacao = json[de_para];
             let moedaB_valor = (parseFloat (this.state.moedaA_valor * cotacao)).toFixed(2)
             this.setState({moedaB_valor})
         })
